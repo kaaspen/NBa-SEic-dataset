@@ -1,0 +1,11 @@
+name: nbase-seic
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - python=3.11
+  - bedtools
+  - pandas
+  - numpy
+  - scikit-learn
+  - umap-learn
+  - seaborn
+  - matplotlib
